@@ -1,21 +1,24 @@
-# Gender and Age Prediction using CNN with TensorFlow & Keras
+# 👤 Gender and Age Prediction using CNN with TensorFlow & Keras
 
-## 📌 Project Overview
+A deep learning project that predicts a person's **gender** and **estimated age** from facial images using a **Convolutional Neural Network (CNN)** trained on the **UTKFace** dataset.
 
-This project implements a **Convolutional Neural Network (CNN)** to predict a person's **gender** and **age** from facial images using the **UTKFace** dataset. The model is built using **TensorFlow** and **Keras**, demonstrating the application of deep learning techniques in computer vision.
-
-This is my **first deep learning project**, developed to gain hands-on experience with image preprocessing, CNN architecture, model training, and evaluation.
+This project was built using **TensorFlow** and **Keras** as my first hands-on deep learning project to explore computer vision, image classification, and model training.
 
 ---
 
-## ✨ Project Highlights
+## 🚀 Project Highlights
 
-- 🧠 CNN-based deep learning model
-- 👤 Predicts gender from facial images
-- 🎂 Estimates age from facial images
-- 📚 Trained on the UTKFace dataset
-- 📊 Visualizes model performance and predictions
-- 🛠️ Built using TensorFlow and Keras
+✨ Predicts **gender** from facial images
+
+🎂 Estimates **age** from facial images
+
+🧠 Built using a **Convolutional Neural Network (CNN)**
+
+📚 Trained on the **UTKFace Dataset**
+
+📈 Includes training accuracy and loss visualization
+
+🔍 Demonstrates predictions on unseen face images
 
 ---
 
@@ -35,64 +38,43 @@ This is my **first deep learning project**, developed to gain hands-on experienc
 
 This project uses the **UTKFace** dataset, a widely used benchmark dataset for facial attribute prediction.
 
-The dataset contains more than **20,000** face images with annotations for:
+The dataset contains over **20,000** facial images with annotations for:
 
-- Age
-- Gender
-- Ethnicity
-
-Each image is labeled, making it suitable for training deep learning models for age estimation and gender classification.
+- 👤 Gender
+- 🎂 Age
+- 🌍 Ethnicity
 
 ---
 
-## 🔄 Project Workflow
+## ⚙️ Project Workflow
 
-1. Import the required libraries.
-2. Load and preprocess the UTKFace dataset.
-3. Build a Convolutional Neural Network (CNN).
-4. Train the model using TensorFlow and Keras.
-5. Evaluate the model's performance.
-6. Predict age and gender on unseen images.
-7. Visualize the results.
-
----
-
-## 📊 Results
-
-The model successfully learns facial features to perform:
-
-- Gender Classification
-- Age Prediction
-
-The notebook includes training metrics, evaluation results, and sample predictions to demonstrate the model's performance.
+1. Import required libraries
+2. Load and preprocess the UTKFace dataset
+3. Build the CNN model
+4. Train the model
+5. Evaluate model performance
+6. Predict age and gender
+7. Visualize results
 
 ---
 
-## 🚀 Getting Started
+# 📊 Results
 
-### Clone the repository
+## 📈 Training Accuracy
 
-```bash
-git clone https://github.com/pranjalgoel2007/gender-age-prediction-keras-tensorflow.git
-```
+<p align="center">
+  <img src="images/accuracy.png" width="700">
+</p>
+<img width="501" height="392" alt="image" src="https://github.com/user-attachments/assets/4dfaf58c-2c20-48e7-a4f1-4d86c8152d15" />
 
-### Navigate to the project
+---
 
-```bash
-cd gender-age-prediction-keras-tensorflow
-```
+## 📉 Training Loss
 
-### Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### Launch Jupyter Notebook
-
-```bash
-jupyter notebook
-```
+<p align="center">
+  <img src="images/loss.png" width="700">
+</p>
+<img width="490" height="389" alt="image" src="https://github.com/user-attachments/assets/67830e68-8dac-49ad-9b99-f710e38b469c" />
 
 ---
 
@@ -107,22 +89,53 @@ gender-age-prediction-keras-tensorflow/
 ├── LICENSE
 ├── .gitignore
 └── images/
+    ├── accuracy.png
+    ├── loss.png
+    └── prediction.png
+```
+
+---
+
+## 🚀 Getting Started
+
+Clone the repository
+
+```bash
+git clone https://github.com/pranjalgoel2007/gender-age-prediction-keras-tensorflow.git
+```
+
+Move into the project directory
+
+```bash
+cd gender-age-prediction-keras-tensorflow
+```
+
+Install the required dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+Launch Jupyter Notebook
+
+```bash
+jupyter notebook
 ```
 
 ---
 
 ## 💡 Future Improvements
 
-- Improve age prediction accuracy
-- Experiment with transfer learning models such as ResNet or MobileNet
-- Optimize hyperparameters
-- Deploy the model as a web application using Flask or Streamlit
+- 🚀 Improve age prediction accuracy
+- 🧠 Experiment with transfer learning models such as ResNet and MobileNet
+- ⚡ Optimize hyperparameters
+- 🌐 Deploy the model as a web application using Streamlit or Flask
 
 ---
 
-## 🎓 What I Learned
+## 📚 What I Learned
 
-Through this project, I gained practical experience in:
+Through this project, I gained practical experience with:
 
 - Deep Learning
 - Convolutional Neural Networks (CNNs)
@@ -137,4 +150,4 @@ Through this project, I gained practical experience in:
 
 **Pranjal Goel**
 
-If you found this project interesting, consider giving it a ⭐ to support my work!
+⭐ If you found this project interesting, consider starring the repository.
