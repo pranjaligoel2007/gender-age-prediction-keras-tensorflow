@@ -1,5 +1,9 @@
 # 👤 Gender and Age Prediction using CNN with TensorFlow & Keras
-
+![Python](https://img.shields.io/badge/Python-3.10-blue?style=for-the-badge&logo=python)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![Keras](https://img.shields.io/badge/Keras-Deep%20Learning-D00000?style=for-the-badge&logo=keras&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 A deep learning project that predicts a person's **gender** and **estimated age** from facial images using a **Convolutional Neural Network (CNN)** trained on the **UTKFace** dataset.
 
 This project was built using **TensorFlow** and **Keras** as my first hands-on deep learning project to explore computer vision, image classification, and model training.
